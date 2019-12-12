@@ -244,7 +244,7 @@ while i < 92:
     gameAchievements = GetGameAchievements( s )
 #gameStats = GetGameStats( s, username )
 
-# Начало фа ма ачивок
+# Начало фарма ачивок
     for achievement in gameAchievements:
         # currently only Max and Cumulative stat types supported
         if achievement['StatType'] != 'Max' and achievement['StatType'] != 'Cumulative':

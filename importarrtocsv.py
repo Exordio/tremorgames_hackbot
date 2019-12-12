@@ -170,10 +170,8 @@ tremor_Data_arr2 = np.array([['http://www.tremorgames.com/playgame/5872/super-de
 ['http://www.tremorgames.com/playgame/7022/endless-war-3.html','http://www.tremorgames.com/games/files/1355333577_7022_ew3 Tremor.swf',169,'kjnh67gbf43']])
 
 
-#arr1 = pd.DataFrame(tremor_Data_arr)
+arr = pd.concat([pd.DataFrame(tremor_Data_arr), pd.DataFrame(tremor_Data_arr2)], ignore_index=True) # Соединение двух массивов в один csv
 
-arr = pd.concat([pd.DataFrame(tremor_Data_arr), pd.DataFrame(tremor_Data_arr2)], ignore_index=True)
-
-print(arr1)
+arr.to_csv('csvdata.csv', index = False) # Запись в файл
 
 x = input()
