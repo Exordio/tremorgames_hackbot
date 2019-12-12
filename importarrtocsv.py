@@ -174,4 +174,12 @@ arr = pd.concat([pd.DataFrame(tremor_Data_arr), pd.DataFrame(tremor_Data_arr2)],
 
 arr.to_csv('csvdata.csv', index = False) # Запись в файл
 
+
+
+#mydata = np.genfromtxt('csvdata.csv', delimiter=',', dtype= None)
+
+#mydata = np.delete(mydata, (0), axis= 0)
+
+#print(mydata)
+
 x = input()
