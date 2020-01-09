@@ -8,4 +8,6 @@ Response bot to hack some TC on tremorgames.com
 
 ~~To work need (requests, numpy, getpass, hashlib, json)~~
 
-Haha, tremorgames.com was shutdown, the bot successfully worked for 3 years..
+tremorgames.com was shutdown, the bot successfully worked for 3 years..
+
+https://www.unknowncheats.me/forum/web-and-scripting/211893-tremorgames-com-bot.html
